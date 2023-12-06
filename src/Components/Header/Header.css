@@ -1,0 +1,32 @@
+header {
+    background-color: #fffe;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #140d0d;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #131010;
+  }
+  
