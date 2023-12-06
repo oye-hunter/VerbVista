@@ -7,13 +7,16 @@ import FAQ from './Components/FAQ';
 import Header from "./Components/Header/Header"
 import "./App.css"
 import Footer from './Components/Footer/Footer';
-
+import Faq from "./Components/Faq/Faq"
+import Services from "./Components/Services/Services"
 
 function App() {
  return (
   <>
           <Header/>
           <Summarizer/>
+          <Services/>
+          <Faq/>
           <Footer/>
           </>
       //   </Routes>
