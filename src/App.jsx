@@ -1,23 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./Components/Home";
-// import About from './Components/FAQ';
-import Summarizer from './Components/Summarizer/Summarizer';
-import FAQ from './Components/FAQ';
-import Header from "./Components/Header/Header"
-import "./App.css"
-import Footer from './Components/Footer/Footer';
-import Faq from "./Components/Faq/Faq"
-import Services from "./Components/Services/Services"
+import Summarizers from './Pages/Summarizers/Summarizers';
 
 function App() {
  return (
   <>
-          <Header/>
-          <Summarizer/>
-          <Services/>
-          <Faq/>
-          <Footer/>
+         <Summarizers/>
           </>
       //   </Routes>
       //   <Routes>
