@@ -25,7 +25,7 @@ const Home = () => {
     <div className='main'>
       <h1>Text Summarizer</h1>
       <div className="input-container">
-        <textarea
+        <textarea 
           placeholder="Enter text to summarize"
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
@@ -36,15 +36,8 @@ const Home = () => {
           readOnly
         />
       </div>
-      <div className="d2">
         <div className="upload-container">
-          {/* <input style={{width:"70%",}}
-            type="text"
-            placeholder="Enter URL to summarize"
-            value={url}
-            onChange={(e) => setUrl(e.target.value)}
-          /> */}
-          <label className="file-upload" htmlFor="fileUpload">
+        <label className="file-upload" htmlFor="fileUpload">
             <img className='upload' src={upload} alt="" />
             <input style={{display:'none'}}
               type="file"
@@ -54,11 +47,19 @@ const Home = () => {
             />
             <span></span>
           </label>
+            <input className='url_input'
+              type="text"
+              placeholder="Enter URL to summarize"
+              value={url}
+              onChange={(e) => setUrl(e.target.value)}
+            />
+          
         </div>
-      </div>
+      <div className='div_button' >
       <button className="rounded-button" onClick={handleSummarize}>
         Summarize
       </button>
+      </div>
     </div>
   );
 };
