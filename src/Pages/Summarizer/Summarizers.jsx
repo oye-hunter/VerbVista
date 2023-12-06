@@ -9,11 +9,11 @@ const Summarizers = () => {
   return (
     <>
         <Header/>
-          <Summarizer/>
+          <Summarizer head={"Text Summarizer"} button={"Summarize"} />
           <Services/>
           <Faq/>
           <Footer/>  
-          <Plag/>
+          {/* <Plag/> */}
     </>
   )
 }

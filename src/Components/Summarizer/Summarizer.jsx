@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './Summarizer.css';
 import upload from "../../assets/cloud-computing.png";
 
-const Home = () => {
+const Home = ({head, button}) => {
   const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
   const [url, setUrl] = useState('');
@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <div className='main'>
-      <h1>Text Summarizer</h1>
+      <h1>{head}</h1>
       <div className="input-container">
         <textarea 
           placeholder="Enter text to summarize"
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
       <div className='div_button' >
       <button className="rounded-button" onClick={handleSummarize}>
-        Summarize
+        {button}
       </button>
       </div>
     </div>
