@@ -6,6 +6,7 @@ import './Plag.css';
 import upload from "../../assets/cloud-computing.png";
 import Header from '../../Components/Header/Header';
 import Faq from '../../Components/Faq/Faq';
+import Plagchkr from '../../Components/Plagchkr/Plagchkr';
 import Footer from '../../Components/Footer/Footer';
 import Summarizer from "../../Components/Summarizer/Summarizer"
 
@@ -13,7 +14,9 @@ const Plag = () => {
   return(
     <>
     <Header/>
-    <Summarizer  head={"Plagirisim Checker"} button={"Check"}  />
+    {/* <Summarizer  head={"Plagirisim Checker"} button={"Check"}  /> */}
+<Plagchkr/>
+
     <Faq/>
     <Footer/>
     </>
