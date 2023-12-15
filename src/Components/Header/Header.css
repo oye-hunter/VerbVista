@@ -1,32 +1,49 @@
 header {
-    background-color: #fffe;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 15px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #140d0d;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    border-bottom: 2px solid #131010;
-  }
-  
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+/* Add some styling for the buttons */
+.login-btn,
+.register-btn {
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+  background-color: #2980b9;
+}

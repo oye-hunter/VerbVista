@@ -4,16 +4,34 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Summarizer.css';
 import upload from "../../assets/cloud-computing.png";
+import { HfInference } from '@huggingface/inference'
+
+
 
 const Home = ({head, button}) => {
   const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
   const [url, setUrl] = useState('');
   const [file, setFile] = useState(null);
+  const hf = new HfInference('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')
 
-  const handleSummarize = () => {
+  const handleSummarize = async() => {
     // Implement summarization logic
     console.log('Summarizing...');
+    try {
+      // await hf.loadModel('../../../model/bart-large-cnn')
+      const response = await hf.summarization({
+        model: 'facebook/bart-large-cnn',
+        inputs: inputText,
+        parameters: {
+          max_length: 100
+        }
+      });
+  
+      setOutputText(response.summary_text); // This will print the generated summary
+    } catch (error) {
+      console.error('Error:', error);
+    }
   };
 
   const handleFileUpload = (e) => {

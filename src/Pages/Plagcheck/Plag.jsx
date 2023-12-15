@@ -13,7 +13,7 @@ const Plag = () => {
   return(
     <>
     <Header/>
-    <Summarizer  head={"Plagirisim Checker"} button={"Check"}  />
+    <Summarizer  head={"Plagiarism Checker"} button={"Check"} placeholder={"Enter Text "} />
     <Faq/>
     <Footer/>
     </>
