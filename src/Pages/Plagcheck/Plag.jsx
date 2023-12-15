@@ -1,7 +1,6 @@
 
 import Header from '../../Components/Header/Header';
 import Faq from '../../Components/Faq/Faq';
-
 import Footer from '../../Components/Footer/Footer';
 import Summarizer from "../../Components/Summarizer/Summarizer"
 
