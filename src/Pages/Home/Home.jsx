@@ -23,7 +23,7 @@ const Home = () => {
     {
       logo: plaglogo, 
       title: "Plagiarism Checker",
-      text: "Detect and resolve unintentional plagiarism with the VerbVista Plagiarism Checker. Elevate your confidence when submitting papers, as our advanced tool meticulously detects and resolve unintentional plagiarism.",
+      text: "Detect and resolve unintentional plagiarism with the VerbVista Plagiarism Checker. Elevate your confidence when submitting papers, as our tool meticulously detects and resolve plagiarism.",
       buttonText: "Plagiarism Checker",
       link: "/plag",
     },

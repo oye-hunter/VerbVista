@@ -8,7 +8,7 @@ const Login = () => {
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Login0</h3>
+          <h3 className="Auth-form-title">Login</h3>
           <div className="text-center">
               Not registered yet?{" /"}
               <span className="link-primary" >

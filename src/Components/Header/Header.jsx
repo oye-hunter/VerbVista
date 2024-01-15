@@ -17,6 +17,8 @@ const Header = () => {
           <ul>
             <li><Link to="/summarizers">Text Summarization</Link></li>
             <li><Link to="/plag">Plagiarism Checker</Link></li>
+            <li><Link to="/plag">Paraphrasing </Link></li>
+            <li><Link to="/plag">About </Link></li>
             <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/login" className="login-btn">Login</Link></li>
             <li><Link to="/register" className="register-btn">Register</Link></li>

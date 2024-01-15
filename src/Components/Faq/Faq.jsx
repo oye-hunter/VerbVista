@@ -53,27 +53,21 @@ function Faq() {
                             <div class="tab-pane fade active show" id="pills-genarel" role="tabpanel" aria-labelledby="pills-genarel-tab">
                                 <div class="row g-4 mt-2">
                                     <div class="col-lg-6">
-                                        <h5>What is Lorem Ipsum ?</h5>
-                                    <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple 
-                                        and regular than that of the individual languages. The new common language will be more simple and 
-                                        regular than the existing</p>
+                                        <h5>Can the summarizer tool handle complex or technical language?</h5>
+                                    <p class="text-muted">Yes, it can. The engine has been trained on a big dataset, so technical or complex data is no a big problem for the text summarizer.</p>
                                     </div>
                                     <div class="col-lg-6">
-                                        <h5>Why do we use it ?</h5>
-                                        <p class="text-muted">Their separate existence is a myth. For science, music, sport, etc, 
-                                            Europe uses the same vocabulary.</p>
+                                        <h5>How fast can the summarizer tool generate a summary?</h5>
+                                        <p class="text-muted">The text summarization engine can condense long text within seconds.</p>
                                     </div>
                                     <div class="col-lg-6">
-                                        <h5>Where does it come from ?</h5>
-                                    <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple 
-                                        and regular than that of the individual languages. The new common language will be more simple and 
-                                        regular than the existing
+                                        <h5>Does the paraphrasing tool improve the readability and tone of the content?</h5>
+                                    <p class="text-muted">Yes it can, One of the two methods of paraphrasing is called "Fluency". This will improve the language and fix grammatical errors in the text you are paraphrasing.
                                     </p>
                                     </div>
                                     <div class="col-lg-6">
-                                        <h5>Where can I get some?</h5>
-                                        <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more 
-                                            simple and regular than that of the individual languages. </p>
+                                        <h5>What does a risk of plagiarism mean?</h5>
+                                        <p class="text-muted">VerbVista plagiarism checker estimates the risk of plagiarism by calculating the percentage of text in your document that is similar to other sources. </p>
                                     </div>
                                 </div>
                             </div>

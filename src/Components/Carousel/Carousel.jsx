@@ -13,13 +13,13 @@ const App = () => (
       <h3 style={contentStyle}>Hello</h3>
     </div>
     <div>
-      <h3 style={contentStyle}>mf</h3>
+      <h3 style={contentStyle}></h3>
     </div>
     <div>
       <h3 style={contentStyle}>how are</h3>
     </div>
     <div>
-      <h3 style={contentStyle}>you doin</h3>
+      <h3 style={contentStyle}>you doing</h3>
     </div>
   </Carousel>
 );
