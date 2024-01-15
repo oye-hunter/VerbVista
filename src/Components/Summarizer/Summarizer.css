@@ -1,13 +1,15 @@
 
 .main{
-    background-color:rgb(83, 240, 234);
+    background-color:rgba(186, 223, 249, 0.615);
     padding: 20px;
 }
 
 
   h1 {
     text-align: center;
+    color: rgb(45,62,79);
     padding:30px;
+    text-shadow: 3px 2px 40px rgb(112, 112, 112);
   }
   
   .input-container {

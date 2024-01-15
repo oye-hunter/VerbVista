@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../Components/Header/Header'
+// import Header from '../../Components/Header/Header'
 import Services from '../../Components/Services/Services'
 import Faq from '../../Components/Faq/Faq'
 import Footer from '../../Components/Footer/Footer'
@@ -8,7 +8,7 @@ import Plag from "../../Pages/Plagcheck/Plag"
 const Summarizers = () => {
   return (
     <>
-        <Header/>
+        {/* <Header/> */}
           <Summarizer head={"Text Summarizer"} button={"Summarize"} />
           <Services/>
           <Faq/>

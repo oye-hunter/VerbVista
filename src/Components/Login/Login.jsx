@@ -8,11 +8,11 @@ const Login = () => {
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Sign In</h3>
+          <h3 className="Auth-form-title">Login0</h3>
           <div className="text-center">
               Not registered yet?{" /"}
               <span className="link-primary" >
-                Sign Up
+                Register
               </span>
             </div>
           <div className="form-group mt-3">
