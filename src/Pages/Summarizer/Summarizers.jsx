@@ -6,6 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 import Summarizer from "../../Components/Summarizer/Summarizer"
 import Plag from "../../Pages/Plagcheck/Plag"
 const Summarizers = () => {
+  
   return (
     <>
         {/* <Header/> */}

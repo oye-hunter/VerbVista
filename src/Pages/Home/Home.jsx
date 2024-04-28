@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import teamimage from "../../../public/Assets/teamimage.png"
-import Image from "/D:/fyp/VerbVista/public/Assets/photo-1507208773393-40d9fc670acf.avif"
+import Image from "/Assets/photo-1507208773393-40d9fc670acf.avif"
 import textlogo from "../../../public/Assets/text.png"
 import plaglogo from "../../../public/Assets/plag.png"
 import paraplogo from "../../../public/Assets/parap.png"
@@ -45,7 +45,7 @@ const Home = () => {
             <p className="home-para">Your path to <br /> academic success</p>
             <p className="aft-para">Improve your paper using Text Summarization Service, <br /> Plagiarism Checker, Paraphrasing Tool, AI Detector & Knowledge base.</p>
           </div>
-          <div className="circle">
+          <div className="">
             <img src={Image} alt="Your Alt Text" width={'100%'} height={'100%'} className="home-img" />
           </div>
         </div>
@@ -125,6 +125,7 @@ We believe that every student should have the right tools for academic success. 
 
     </>
   );
+  
 };
 
 export default Home;

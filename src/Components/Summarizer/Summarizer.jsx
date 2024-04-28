@@ -6,8 +6,6 @@ import './Summarizer.css';
 import upload from "../../assets/cloud-computing.png";
 import { HfInference } from '@huggingface/inference'
 
-
-
 const Home = ({head, button}) => {
   const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
@@ -80,6 +78,8 @@ const Home = ({head, button}) => {
       </div>
     </div>
   );
+
+    
 };
 
 export default Home;

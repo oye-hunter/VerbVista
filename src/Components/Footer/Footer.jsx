@@ -1,126 +1,48 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import "@fortawesome/fontawesome-free/css/all.min.css";
-const Footer = ()=> {
+import './Footer.css'; 
+import Logo from "/Assets/logo.png"
+
+
+
+const Footer = () => {
+ 
   return (
-    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
-        </div>
+    <footer className="footer">
+      <div className="footer-content">
+        <section className='footer-section'>
+         <img  src={Logo} alt="Your Logo" className="logo-main" />
+        </section>
 
-        <div>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="facebook-f" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="google" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="instagram" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="github" />
-          </a>
-        </div>
-      </section>
+        <section className='footer-section'>
+          <h6 className='footer-heading'>VerbVista</h6>
+          <ul className='footer-links'>
+            <li><a href='#'>Our Editor</a></li>
+            <li><a href='#'>Jobs</a></li>
+            <li><a href='#'>FAQs</a></li>
+          </ul>
+        </section>
+        <section className='footer-section'>
+          <h6 className='footer-heading'>Services</h6>
+          <ul className='footer-links'>
+            <li><a href='#'>Text Summarization</a></li>
+            <li><a href='#'>Plagiarism Checker</a></li>
+            <li><a href='#'>Paraphrasing Tool</a></li>
+            <li><a href='#'>Chatbot</a></li>
+          </ul>
+        </section>
 
-      <section className=''>
-        <MDBContainer className='text-center text-md-start mt-5'>
-          <MDBRow className='mt-3'>
-            <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
-                VerbVista
-              </h6>
-              <p>
-                Our Editor <br />
-                Jobs <br />
-                FAQs<br />
-              </p>
-            </MDBCol>
-
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Languages</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Mern Stack
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  React js
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Node js
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Mongo DB
-                </a>
-              </p>
-            </MDBCol>
-
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Services</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Text Summarization 
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Plagiarism Checker 
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Paraphrasing Tool
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Chatbot
-                </a>
-              </p>
-            </MDBCol>
-
-            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
-              <p>
-                <MDBIcon icon="home" className="me-2" />
-                Pakistan
-              </p>
-              <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                VerbVista@gmail.com
-              </p>
-              <p>
-                <MDBIcon icon="phone" className="me-3" /> + 92 307 896 635
-              </p>
-              <p>
-                <MDBIcon icon="print" className="me-3" /> + 92 307 896 636
-              </p>
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
-      </section>
-
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2024 Copyright: VerbVista
-
+        <section className='footer-section'>
+          <h6 className='footer-heading'>Contact</h6>
+          <ul className='footer-contact'>
+            <li><i className='fas fa-home'></i> Pakistan</li>
+            <li><i className='fas fa-envelope'></i> VerbVista@gmail.com</li>
+            <li><i className='fas fa-phone'></i> + 92 307 896 635</li>
+            <li><i className='fas fa-print'></i> + 92 307 896 636</li>
+          </ul>
+        </section>
       </div>
-    </MDBFooter>
+    </footer>
   );
-}
-export default Footer
+};
+
+export default Footer;

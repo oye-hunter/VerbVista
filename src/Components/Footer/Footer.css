@@ -1,82 +1,55 @@
-:root {
-    --primary: #1f3e72;
-    --secondary: rgba(255, 255, 255, 0.78);
-    --black: #131110;
-    --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
-    --orange-gradient: linear-gradient(270deg, #ea9310 0%, #eaac4e 100%);
-    --blue: #4066ff;
-    --orange:#FA9F15;
-    --lightBlue: #eeeeff;
-    --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
-  }
-.f-container{
-    justify-content: space-between;
-    border-top: 1.5px solid rgba(0,0,0,0.148);
+/* Add your styling here */
+/* Footer styles */
+.footer {
+  background-color: #f8f9fa;
+  padding: 30px 0;
 }
-.f-left{
- gap: 2rem;
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.f-menu{
-    gap: 1.5rem;
+
+.footer-section {
+  margin-bottom: 30px;
 }
-.paddings {
-    padding: 1.5rem;
-  }
-  
-  .innerWidth {
-    width: 80%;
-  }
-  
-  .flexCenter {
-    display: flex;
-    row-gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .flexStart {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  .flexEnd {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  .flexColCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .flexColStart {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .flexColEnd {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  
-  .primaryText {
-    color: #1f3e72;
-    font-weight: bold;
-    font-size: 2rem;
-  }
-  
-  .secondaryText {
-    color: rgb(140 139 139);
-    font-size: 0.9rem;
-  }
-  .orangeText {
-    color: orange;
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
+
+.footer-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.footer-contact {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact li {
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  color: #343a40;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,73 @@
+.plag-title {
+    color: #343a40;        /* Dark slate gray color for high contrast against a light background */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern and clean font family */
+    font-size: 32px;       /* Larger font size for heading */
+    font-weight: 700;      /* Bold font weight for prominence */
+    text-align: center;    /* Center aligns the text, suitable for titles */
+    margin-top: 20px;      /* Adds space above the heading */
+    margin-bottom: 20px;   /* Adds space below the heading */
+    padding: 10px 0;       /* Adds padding on the top and bottom for better text framing */
+}
+.p-1 {
+    padding: 6px;                   /* Equivalent to a utility class like p-1 for padding */
+    color: #212529;                 /* A dark gray color for text, ensures good readability */
+    font-family: 'Arial', sans-serif; /* Specifies the font family */
+    /* font-size: 16px;                */
+    /* margin-bottom: px;         */
+    text-align: center;             /* Centers the text horizontally within the paragraph */
+}
+
+.pg-container {
+    background-color: #f0f0f0; /* Light gray background for visibility and contrast */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D, floating effect */
+    padding: 20px; /* Padding to ensure content does not touch the edges */
+    border-radius: 8px; 
+     margin: 24px; 
+}
+/* .plag-header{
+    display: flex;
+} */
+.circle-container {
+    position: relative;
+    width: 100px; /* Container size */
+    height: 100px; /* Container size */
+    margin: 20px auto;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem; /* Adjusted for smaller circles */
+    transition: all 0.3s ease;
+}
+
+.circle-inner {
+    width: 40px; /* Smallest circle */
+    height: 40px;
+    background: rgba(255, 0, 0, 1); /* Most opaque */
+    top: 50%; /* Centering the circle */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Precisely centers the circle */
+}
+
+.circle-middle {
+    width: 60px; /* Medium circle */
+    height: 60px;
+    background: rgba(255, 0, 0, 0.45); /* Medium opacity */
+    top: 50%; /* Centering the circle */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Precisely centers the circle */
+}
+
+.circle-outer {
+    width: 80px; /* Largest circle fills container */
+    height: 80px;
+    background: rgba(255, 0, 0, 0.33); /* Least opaque */
+    top: 50%; /* Centering the circle */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Precisely centers the circle */
+}

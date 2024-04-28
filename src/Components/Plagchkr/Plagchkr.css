@@ -1,0 +1,11 @@
+.p-1 {
+    padding: 8px;           /* Equivalent to a utility class like p-1 for padding */
+    background-color: #f8f9fa; /* A light gray background, commonly used for subtle differentiation */
+    border: 1px solid #dee2e6; /* A light gray border for a slight emphasis */
+    color: #212529;       /* A dark gray color for text, ensures good readability */
+    font-family: 'Arial', sans-serif; /* Specifies the font family */
+    font-size: 16px;       /* Sets the font size */
+    border-radius: 4px;    /* Adds rounded corners to the paragraph */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for a 3D effect */
+    margin-bottom: 16px;   /* Adds space below the paragraph */
+}
