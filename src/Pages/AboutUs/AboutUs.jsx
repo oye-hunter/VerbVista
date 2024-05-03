@@ -5,8 +5,8 @@ function AboutUs() {
   return (
     <div>
       <div className="about-container">
-        <h3 className="heading1">About Us</h3>
-        <p className="para1">
+        <h3>About Us</h3>
+        <p>
           Welcome to VerbVista, your ultimate destination for enhancing written
           communication! In today's fast-paced world, effective communication
           plays a pivotal role in personal, academic, and professional spheres.
@@ -21,7 +21,7 @@ function AboutUs() {
         </p>
         
         <br />
-        <h3 className="heading2">Our Vision</h3>
+        <h3>Our Vision</h3>
         <p>
           Our vision at VerbVista is to revolutionize the way individuals
           interact with written content. We strive to create a platform that not
