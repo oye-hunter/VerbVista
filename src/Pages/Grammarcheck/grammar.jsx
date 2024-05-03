@@ -4,6 +4,10 @@ import Faq from "../../Components/Faq/Faq";
 import Footer from "../../Components/Footer/Footer";
 import FileUploadButton from "../../Components/plagarism/FileButton";
 import axios from "axios";
+import para from "/Assets/para.webp"
+import para2 from "/Assets/para2.webp"
+import para3 from "/Assets/para3.webp"
+import para5 from "/Assets/para5.webp"
 const Plag = () => {
   const [text, setText] = useState("");
   const [showResults, setShowResults] = useState(false);
@@ -125,10 +129,122 @@ console.log('results',results)
               </div>
             )}
           </div>
+
+          
+
         </div>
       </div>
 
-      <Faq />
+      <div  className="flex bg-[#E8F2FC] justify-center items-center px-[50px] h-[500px] shadow-lg mt-4">
+        <div className="flex items-start flex-col m-4 ">
+          <h1 className="text-3xl font-bold">
+          What's a paraphrasing tool?
+          </h1> 
+          <p className="w-3/4 mx-6 text-lg">
+          This AI-powered paraphraser lets you rewrite text in your own words. Use it to  paraphrase articles, essays, and other pieces of text. You can also use it to rephrase sentences and find synonyms for individual words. And the best part? It’s all 100% free!
+          </p>
+        </div>
+        <div>
+          <img src={para2}/>
+        </div>
+
+      </div>
+
+         <div  className="flex flex-row-reverse justify-center items-center px-[50px] mt-8">
+        <div className="flex items-start flex-col p-14 w-2/3">
+          <h1 className="text-3xl font-bold">
+          What's paraphrasing?
+
+          </h1> 
+          <p className="mx-6 text-lg">
+          Paraphrasing involves expressing someone else’s ideas or thoughts in your own words while maintaining the original meaning. Paraphrasing tools can help you quickly reword text by replacing certain words with synonyms or restructuring sentences. They can also make your text more concise, clear, and suitable for a specific audience. Paraphrasing is an essential skill in academic writing and professional communication. 
+          </p>
+        </div>
+        <div className=" mx-10]">
+          <img src={para}/>
+        </div>
+
+      </div>
+
+      <div  className="flex justify-center items-center px-[50px] mt-8">
+        <div className="flex items-start flex-col p-14 w-2/3">
+          <h1 className="text-3xl font-bold">
+          Why use this paraphrasing tool?
+
+          </h1>
+
+          <ul className="list-disc ml-10 pl-4">
+            <li className="flex items-start">
+              <span className="mr-2 font-bold text-green-500">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 7L9 19L3.5 13.5L4.91 12.09L9 16.17L19.59 5.59L21 7Z" stroke="currentColor" strokeWidth="2"/>
+                </svg>
+              </span>
+              This tool is perfect for students, writers, and anyone who needs to rewrite text in their own words.
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 font-bold text-green-500">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 7L9 19L3.5 13.5L4.91 12.09L9 16.17L19.59 5.59L21 7Z" stroke="currentColor" strokeWidth="2"/>
+                </svg>
+              </span>
+              It’s easy to use: just paste text, get a paraphrased version, and edit it further.
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 font-bold text-green-500">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 7L9 19L3.5 13.5L4.91 12.09L9 16.17L19.59 5.59L21 7Z" stroke="currentColor" strokeWidth="2"/>
+                </svg>
+              </span>
+              The tool is completely free to use, and there are no ads or context_not_requireds to distract you from the text you need to focus on.
+            </li>
+          </ul>
+
+        </div>
+        <div className=" mx-10]">
+          <img src={para3} width={500} />
+        </div>
+
+      </div>
+       
+       <div className="bg-[#E8F2FC] flex flex-col justify-center items-center">
+       <div  className="flex flex-row-reverse justify-center items-center px-[50px] mt-8">
+        <div className="flex items-start flex-col p-14 w-2/3">
+          <h1 className="text-3xl font-bold">
+          Avoid accidental plagiarism
+          </h1>
+         <p className="m-2 px-12 pb-2">Want to make sure your document is plagiarism-free? In addition to our paraphrasing tool, which will help you rephrase sentences, quotations, or paragraphs correctly. </p>
+
+          <ul className="list-disc ml-10 pl-4">
+            <li className="flex items-start">
+              <span className="mr-2 font-bold text-green-500">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 7L9 19L3.5 13.5L4.91 12.09L9 16.17L19.59 5.59L21 7Z" stroke="currentColor" strokeWidth="2"/>
+                </svg>
+              </span>
+              This tool is perfect for students, writers, and anyone who needs to rewrite text in their own words.
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 font-bold text-green-500">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 7L9 19L3.5 13.5L4.91 12.09L9 16.17L19.59 5.59L21 7Z" stroke="currentColor" strokeWidth="2"/>
+                </svg>
+              </span>
+              It’s easy to use: just paste text, get a paraphrased version, and edit it further.
+            </li>
+            
+          </ul>
+
+        </div>
+        <div className=" mx-10]">
+          <img src={para5} width={500} />
+        </div>
+
+      </div>
+       
+       </div>
+
+      {/* <Faq /> */}
       <Footer />
     </>
   );

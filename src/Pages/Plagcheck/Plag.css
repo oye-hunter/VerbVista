@@ -18,8 +18,8 @@
 }
 
 .pg-container {
-    background-color: #f0f0f0; /* Light gray background for visibility and contrast */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D, floating effect */
+     /* Light gray background for visibility and contrast */
+    /* Subtle shadow for a 3D, floating effect */
     padding: 20px; /* Padding to ensure content does not touch the edges */
     border-radius: 8px; 
      margin: 24px; 
@@ -34,7 +34,7 @@
     margin: 20px auto;
 }
 
-.circle {
+.circle-1 {
     position: absolute;
     border-radius: 50%;
     display: flex;

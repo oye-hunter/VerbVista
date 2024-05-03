@@ -1,5 +1,4 @@
-// ChatbotComponent.js
-import React from 'react';
+import React ,{useEffect} from 'react';
 import ChatBot from 'react-simple-chatbot';
 import cross from '/Assets/cross.svg';
 
@@ -135,15 +134,17 @@ const ChatbotComponent = ({ isOpen, handleClose }) => {
 const DynamicResponse = ({ steps, triggerNextStep }) => {
   const userQuery = steps['user-query'].value.toLowerCase();
 
-  if (userQuery.includes('summarization') || userQuery.includes('summarize')) {
-    triggerNextStep({ trigger: 'text-summarization' });
-  } else if (userQuery.includes('plagiarism')) {
-    triggerNextStep({ trigger: 'plagiarism-check' });
-  } else if (userQuery.includes('paraphrasing') || userQuery.includes('paraphrase')) {
-    triggerNextStep({ trigger: 'paraphrasing' });
-  } else {
-    triggerNextStep({ trigger: 'options-if-unrelated' });
-  }
+  useEffect(() => {
+    if (userQuery.includes('summarization') || userQuery.includes('summarize')) {
+      triggerNextStep({ trigger: 'text-summarization' });
+    } else if (userQuery.includes('plagiarism')) {
+      triggerNextStep({ trigger: 'plagiarism-check' });
+    } else if (userQuery.includes('paraphrasing') || userQuery.includes('paraphrase')) {
+      triggerNextStep({ trigger: 'paraphrasing' });
+    } else {
+      triggerNextStep({ trigger: 'options-if-unrelated' });
+    }
+  }, [userQuery, triggerNextStep]); // dependencies array ensures this only runs if userQuery or triggerNextStep changes
 
   return <div>Checking your request...</div>;
 };
