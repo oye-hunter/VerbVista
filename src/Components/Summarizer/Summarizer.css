@@ -1,12 +1,21 @@
 
 .main{
-    background-color:rgba(186, 223, 249, 0.615);
     padding: 20px;
 }
 
-
+.head {
+  color: #343a40;        /* Dark slate gray color for high contrast against a light background */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern and clean font family */
+  font-size: 32px;       /* Larger font size for heading */
+  font-weight: 700;      /* Bold font weight for prominence */
+  text-align: center;    /* Center aligns the text, suitable for titles */
+  margin-top: 20px;      /* Adds space above the heading */
+  margin-bottom: 20px;   /* Adds space below the heading */
+  padding: 10px 0;       /* Adds padding on the top and bottom for better text framing */
+}
   h1 {
     text-align: center;
+    font-size: 40px;
     color: rgb(45,62,79);
     padding:30px;
     text-shadow: 3px 2px 40px rgb(112, 112, 112);
@@ -18,7 +27,7 @@
     width: 90%;
     margin: 0 auto;
     
-    box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 10px 150px 10px rgba(0, 0, 0, 0.3);
   }
   
   textarea {
@@ -68,7 +77,7 @@
 
   
   .upload-container {
-    width: 90%;
+    width: 80%;
     display: flex;
     align-items: center;
     margin: 0 auto;

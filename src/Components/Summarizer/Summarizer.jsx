@@ -39,7 +39,7 @@ const Home = ({head, button}) => {
 
   return (
     <div className='main'>
-      <h1>{head}</h1>
+      <h1 className='head'>{head}</h1>
       <div className="input-container">
         <textarea 
           placeholder="Enter text to summarize"
